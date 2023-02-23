@@ -1,0 +1,53 @@
+:root {
+  --head-font: 'Lora', serif;
+  --main-font: 'Poppins', sans-serif;
+  --main-green: #212c23;
+  --main-black: #080808;
+  --main-white: #ffefc4;
+}
+
+a.phone {
+  padding-right: 6px;
+}
+
+.btn,
+button {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--primary,
+button {
+  background-color: var(--main-white);
+  color: #242424;
+  border: 1px solid var(--main-white);
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: var(--main-white);
+  padding: 8px 20px;
+  border: 1px solid var(--main-white);
+  transition: all 0.3 ease-out;
+}
+
+.btn--medium {
+  padding: 8px 20px;
+  font-size: 20px;
+}
+
+.btn--large,
+button {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btn--medium:hover,
+.btn--large:hover {
+  background-color: var(--primary);
+  color: #242424;
+  transition: all 0.3 ease-out;
+}

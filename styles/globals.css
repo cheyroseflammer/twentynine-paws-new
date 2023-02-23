@@ -1,16 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+  --head-font: 'Lora', serif;
+  --main-font: 'Poppins', sans-serif;
+  --main-green: #212c23;
+  --main-black: #080808;
+  --main-white: #ffefc4;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
+  font-family: var(--main-font);
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
+ul {
+  padding: 0;
+  list-style-type: none;
+}
 
 * {
   box-sizing: border-box;
+  list-style-type: none;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,7 +35,7 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
+    color: var(--main-white);
     background: black;
   }
 }
