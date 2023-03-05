@@ -4,13 +4,13 @@ const STYLES = ['btn--primary', 'btn--outline'];
 
 const SIZES = ['btn--medium', 'btn--large'];
 
-export const Button = ({ children, type, onClick, buttonStyle, buttonSize }) => {
-  const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
-  const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
+export const Button = ({ children, type, onClick, buttonstyle, buttonsize }) => {
+  const checkbuttonstyle = STYLES.includes(buttonstyle) ? buttonstyle : STYLES[0];
+  const checkbuttonsize = SIZES.includes(buttonsize) ? buttonsize : SIZES[0];
   return (
     <Link href='/forms' className='btn-mobile'>
       <button
-        className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+        className={`btn ${checkbuttonstyle} ${checkbuttonsize}`}
         onClick={onClick}
         type={type}
       >

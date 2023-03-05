@@ -10,9 +10,9 @@ video {
 .hero-container {
   background: none;
   background-color: transparent;
-  position: absolute;
+  /* position: absolute; */
   background: center center/cover no-repeat;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -22,7 +22,7 @@ video {
   object-fit: contain;
 }
 
-.hero-container > h1 {
+.hero-container > h1.hero {
   display: flex;
   margin: 0;
   font-size: 68px;

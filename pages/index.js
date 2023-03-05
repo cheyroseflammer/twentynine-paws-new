@@ -5,8 +5,8 @@ export default function Home() {
     <div className='App'>
       <Navbar />
       <Hero />
-      {/* <Grooming />
-      <Footer /> */}
+      <Grooming />
+      <Footer />
     </div>
   );
 }

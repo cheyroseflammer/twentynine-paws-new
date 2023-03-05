@@ -1,0 +1,46 @@
+:root {
+  --head-font: 'Lora', serif;
+  --main-font: 'Poppins', sans-serif;
+  --main-green: #212c23;
+  --main-black: #080808;
+  --main-white: #ffefc4;
+}
+
+.footer {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--main-green);
+  color: var(--main-white);
+}
+
+h3 {
+  text-align: center;
+  border-bottom: 2px solid var(--main-white);
+}
+
+.hours {
+  display: flex;
+  flex-direction: row;
+}
+
+.days {
+  text-align: start;
+  padding-right: 20px;
+}
+
+.address {
+  width: 200px;
+  text-align: center;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phone {
+  padding-top: 20px;
+}
