@@ -12,17 +12,12 @@ export const AboutMenuItems = [
 ];
 export const GroomingMenuItems = [
   {
-    title: 'Policies',
+    title: 'Policies & Forms',
     path: '/policies',
     cName: 'dropdown-link',
   },
   {
-    title: 'Forms',
-    path: '/forms',
-    cName: 'dropdown-link',
-  },
-  {
-    title: 'Services',
+    title: 'Services & Prices',
     path: '/services',
     cName: 'dropdown-link',
   },

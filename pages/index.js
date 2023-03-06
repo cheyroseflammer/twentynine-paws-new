@@ -1,11 +1,12 @@
-import { Navbar, Hero, Grooming, Footer } from '../src/components';
+import { Navbar, Hero, Grooming, Footer, About } from '../src/components';
 
 export default function Home() {
   return (
-    <div className='App'>
+    <div className="App">
       <Navbar />
       <Hero />
       <Grooming />
+      <About />
       <Footer />
     </div>
   );

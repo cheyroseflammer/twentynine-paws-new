@@ -5,6 +5,7 @@ import '../styles/Hero.css';
 import '../styles/Button.css';
 import '../styles/Grooming.css';
 import '../styles/Footer.css';
+import '../styles/About.css';
 
 function MyApp({ Component, pageProps }) {
   return (

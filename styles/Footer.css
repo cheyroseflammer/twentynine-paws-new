@@ -3,11 +3,11 @@
   --main-font: 'Poppins', sans-serif;
   --main-green: #212c23;
   --main-black: #080808;
-  --main-white: #ffefc4;
+  --main-white: #d5d5d5;
 }
 
 .footer {
-  height: 40vh;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -43,4 +43,10 @@ h3 {
 
 .phone {
   padding-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    flex-direction: column;
+  }
 }
